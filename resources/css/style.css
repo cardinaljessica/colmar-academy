@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header */
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  color: black;
+  height: 4rem;
+}
+
+nav ul {
+  display: flex;
+  align-content: center;
+}
+nav li {
+  display: inline;
+  padding-left: 1rem;
+}
+
+.logo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  align-items: center;
+}
