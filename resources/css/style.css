@@ -22,6 +22,7 @@ strong {
   color: black;
   height: 4rem;
   width: 100%;
+  top: 0px;
 }
 
 nav ul {
@@ -53,15 +54,14 @@ nav li a {
 
 .main-banner {
   display: flex;
-  position: relative;
   align-items: center;
-  top: 4rem;
+  margin-top: 4rem;
   background-color: #E0E0E0;
 }
 
 .main-banner img {
   width: 60%;
-  padding: 2rem 1.5rem;
+  margin: 2rem 1.5rem;
 }
 
 .main-banner .info {
@@ -98,14 +98,29 @@ nav li a {
 
 .information {
   display: flex;
-  position: relative;
-  top: auto;
+}
+
+.information img {
+  width: 100%;
 }
 
 .column-1 {
   width: 60%;
+  margin: 2rem 1.5rem;
 }
 
 .column-2 {
   width: 40%;
+}
+
+.column-2 img {
+  width: 35%;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
 }
