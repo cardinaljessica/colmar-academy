@@ -6,20 +6,17 @@ body {
   font-family: Helvetica;
 }
 
-.container {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  width: 100%;
-}
-
 .flex {
   display: flex;
 }
 
+strong {
+  font-weight: bold;
+}
 /* Header */
 
 
-nav {
+.desktop {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,23 +25,43 @@ nav {
   background-color: white;
   color: black;
   height: 4rem;
+  width: 100%;
 }
 
 nav ul {
   display: flex;
   align-content: center;
+  margin-right: 2rem;
 }
 nav li {
   display: inline;
   padding-left: 1rem;
 }
 
+nav li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
 .logo {
   height: 2rem;
   display: flex;
   align-items: center;
+  margin-left: 2rem;
 }
 
 .logo img {
   align-items: center;
+}
+
+.main-banner {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+.main-banner img {
+  padding: 2rem 1.5rem;
+  width: 60%;
 }
