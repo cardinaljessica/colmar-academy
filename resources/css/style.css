@@ -6,15 +6,11 @@ body {
   font-family: Helvetica;
 }
 
-.flex {
-  display: flex;
-}
-
 strong {
   font-weight: bold;
 }
-/* Header */
 
+/* Header */
 
 .desktop {
   display: flex;
@@ -57,11 +53,59 @@ nav li a {
 
 .main-banner {
   display: flex;
+  position: relative;
   align-items: center;
-  background-color: red;
+  top: 4rem;
+  background-color: #E0E0E0;
 }
 
 .main-banner img {
-  padding: 2rem 1.5rem;
   width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-banner .info {
+  display: block;
+}
+
+.info {
+  line-height: 1.2;
+}
+
+.info h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  color: #484848;
+}
+
+.info p {
+  color: #484848;
+  font-size: 1.5rem;
+}
+
+.info .button {
+  background-color: #484848;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-top: 2rem;
+}
+
+/* Information Section */
+
+.information {
+  display: flex;
+  position: relative;
+  top: auto;
+}
+
+.column-1 {
+  width: 60%;
+}
+
+.column-2 {
+  width: 40%;
 }
