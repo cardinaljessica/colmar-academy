@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Helvetica;
+  font-family: "Hind Vadodara", sans-serif;
 }
 
 strong {
@@ -54,6 +54,7 @@ h3 {
   height: 4rem;
   width: 100%;
   top: 0px;
+  color: #484848;
 }
 
 nav ul {
@@ -67,7 +68,7 @@ nav li {
 }
 
 nav li a {
-  color: black;
+  color: #484848;
   text-decoration: none;
   margin-left: 1rem;
 }
