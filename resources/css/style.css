@@ -14,6 +14,7 @@ strong {
 nav{
   font-size: 1.3rem;
 }
+
 p {
   color: #707070;
   font-size: 1.2rem;
@@ -39,6 +40,14 @@ h3 {
 
 #background {
   background-color: #E0E0E0;
+}
+
+@media only screen and (max-width: 480px) {
+
+  h3 {
+      font-size: 1.5rem;
+    }
+
 }
 
 /* Header */
@@ -121,6 +130,48 @@ nav li a {
   margin-top: 2rem;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    height: 4rem;
+    width: 100%;
+    top: 0px;
+  }
+
+  .main-banner {
+    display: block;
+  }
+
+  .main-banner img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-banner h1 {
+    font-size: 3rem;
+  }
+
+  .info {
+    padding: 2rem 1rem;
+  }
+
+}
+
 /* Information Section */
 
 .information {
@@ -166,6 +217,7 @@ nav li a {
 .row {
   display: flex;
   align-items: center;
+  padding-right: 1rem;
 }
 
 .content {
@@ -177,6 +229,22 @@ nav li a {
   padding-bottom: 0.5rem;
 }
 
+@media only screen and (max-width: 480px) {
+
+#mobile-picture {
+  display: none;
+}
+
+#background {
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  align-content: center;
+}
+
+}
 /* Learning Section */
 
 .learning {
@@ -214,6 +282,31 @@ nav li a {
   width: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+
+.learning {
+  background-color: white;
+  border-top: #E0E0E0 solid 1px;
+}
+
+.learning img,
+.course-info p {
+  display: none;
+}
+
+.courses {
+  padding: 0;
+  width: 100%
+}
+
+.course-info {
+  display: block;
+  width: 100%;
+  background-color: #E0E0E0;
+}
+
+}
+
 /* Thesis Section */
 
 .thesis h2 {
@@ -232,6 +325,20 @@ video {
 
 #second-section {
   padding-top: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+
+#hidden,
+#second-section {
+  display: none;
+}
+
+.information video {
+  display: flex;
+  width: 100%;
+}
+
 }
 
 /* Footer */
