@@ -364,9 +364,22 @@ video {
 .thesis h2 {
   border-top: #E0E0E0 solid 1px;
 }
-.information video {
-  display: flex;
+
+.large {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  max-width: 100%%;
+  padding: 0;
+}
+
+.information {
+  padding-bottom: 1.5rem;
+}
+
+video {
   width: 100%;
+  padding-bottom: 0;
 }
 
 }
@@ -395,4 +408,11 @@ footer {
   text-decoration: none;
   color: #484848
 
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-menu {
+    display: none;
+    padding: 1rem;
+  }
 }
