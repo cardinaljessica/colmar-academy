@@ -328,10 +328,6 @@ nav li a {
   margin: 0;
 }
 
-.learning h2{
-  margin-bottom: 1rem;
-}
-
 }
 
 /* Thesis Section */
@@ -363,6 +359,7 @@ video {
 
 .thesis h2 {
   border-top: #E0E0E0 solid 1px;
+  padding-bottom: 1rem;
 }
 
 .large {
