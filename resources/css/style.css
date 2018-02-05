@@ -176,6 +176,11 @@ nav li a {
   background-color: #E0E0E0;
 }
 
+.learning h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .courses {
   display: flex;
   flex-wrap: wrap;
@@ -183,5 +188,11 @@ nav li a {
 }
 
 .course-types {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
 
+.course-types img {
+  width: 100%;
 }
