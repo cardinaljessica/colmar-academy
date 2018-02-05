@@ -239,10 +239,22 @@ footer {
   display: flex;
   padding: 1rem 1.5rem;
   color: #484848;
+  justify-content: space-between;
   border-top: #E0E0E0 solid 1px;
 }
 
-.footer-menu {
+.footer-menu ul {
+  display: flex;
+  align-content: center;
+}
 
+.footer-menu li {
+  padding-left: 1rem;
+}
+
+.footer-menu a {
+  display: flex;
+  text-decoration: none;
+  color: #484848
 
 }
