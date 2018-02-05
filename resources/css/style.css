@@ -242,6 +242,20 @@ nav li a {
 .row {
   display: flex;
   align-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1rem;
+}
+
+.row img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+
+}
+
+.content {
+  padding: 4rem 1rem;
 }
 
 }
@@ -334,6 +348,9 @@ video {
   display: none;
 }
 
+.thesis h2 {
+  border-top: #E0E0E0 solid 1px;
+}
 .information video {
   display: flex;
   width: 100%;
