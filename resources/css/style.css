@@ -251,6 +251,7 @@ nav li a {
   width: 100%;
   max-width: 100%;
   margin: 0;
+  height: 200px;
 
 }
 
@@ -301,6 +302,7 @@ nav li a {
 .learning {
   background-color: white;
   border-top: #E0E0E0 solid 1px;
+  margin-bottom: 2rem;
 }
 
 .learning img,
@@ -310,13 +312,24 @@ nav li a {
 
 .courses {
   padding: 0;
+  margin: 0;
   width: 100%
 }
 
 .course-info {
+  background-color: #E0E0E0;
+  padding: 1rem 1rem 1.5rem 1rem;
+  margin: 0 1rem .5rem 1rem;
+}
+
+.course-types {
   display: block;
   width: 100%;
-  background-color: #E0E0E0;
+  margin: 0;
+}
+
+.learning h2{
+  margin-bottom: 1rem;
 }
 
 }
